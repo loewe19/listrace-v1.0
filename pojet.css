@@ -1,0 +1,14 @@
+body{
+    background-color: aqua;   
+ .supernova, .jotform-form, .form-all {
+    background-color: transparent !important;
+    }
+    .form-all {
+    box-shadow: none;
+    border: none;
+    }
+{
+    background-image: url("SUV.png");
+    background-attachment: fixed;
+}
+}

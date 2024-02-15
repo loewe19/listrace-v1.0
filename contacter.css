@@ -1,0 +1,8 @@
+body {
+    background-color: aqua;
+    background: #535bd4 url('../images/téléchargement - Copie.jfif') no-repeat;
+    background-size: cover;
+    background-position: center center;
+    color: #ffffff;
+    position: relative;
+}
