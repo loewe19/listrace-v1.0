@@ -1,7 +1,7 @@
 body{
 	font-family: 'Poppins', sans-serif;
 	font-size:14px;
-	color:#a09e9c;
+	color:#ae9071;
     text-transform:initial;
     max-width:1920px;
     margin:0 auto;
@@ -9,11 +9,11 @@ body{
     background-color: #3a6666;
 }
 #banner {
-    background: #664c8f;
+    background: lightseagreen;
     height: auto;
     padding:  100px  100px;
     text-align: center;
-    color: white;
+    color: rgb(221, 152, 152);
   }
   
   h1 {
@@ -25,7 +25,7 @@ body{
   }
 
   .passer-banner {
-    background-color: rgb(84, 84, 172); /* Couleur de fond jaune */
+    background-color: indianred; /* Couleur de fond jaune */
     padding:  20px;
     margin-bottom:  20px;
     border-radius:  5px; /* Coins arrondis */
@@ -36,26 +36,6 @@ body{
     font-size:  24px; /* Taille de police du titre */
     margin-bottom:  10px; /* Espace entre le titre et le paragraphe */
 }
-
-.passer-banner p {
-    font-size:  16px; /* Taille de police du paragraphe */
-}
-#banner {
-    background: gray;
-    height: auto;
-    padding:  100px  100px;
-    text-align: center;
-    color: rgb(77, 39, 39);
-  }
-  
-  h3 {
-    font-family: Arial;
-  }
-  
-  p {
-    font-family: Arial;
-  }
-
   
 footer {
     text-align: center;

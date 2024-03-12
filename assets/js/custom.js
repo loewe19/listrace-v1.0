@@ -1,111 +1,99 @@
-$(document).ready(function(){
-	"use strict";
+
+
+  /*-------------------------------------------------------------------------------
+    PRE LOADER
+  -------------------------------------------------------------------------------*/
+
+  $(window).load(function(){
+    $('.preloader').fadeOut(1000); // set duration in brackets    
+  });
+
+
+
+  /* HTML document is loaded. DOM is ready. 
+  -------------------------------------------*/
+
+  $(document).ready(function() {
+
+
+  /*-------------------------------------------------------------------------------
+    Hide mobile menu after clicking on a link
+  -------------------------------------------------------------------------------*/
+
+    $('.navbar-collapse a').click(function(){
+        $(".navbar-collapse").collapse('hide');
+    });
+
+
+
+  /*-------------------------------------------------------------------------------
+    smoothScroll js
+  -------------------------------------------------------------------------------*/
+    $(function() {
+        $('.navbar-default a').bind('click', function(event) {
+            var $anchor = $(this);
+            $('html, body').stop().animate({
+                scrollTop: $($anchor.attr('href')).offset().top - 49
+            }, 1000);
+            event.preventDefault();
+        });
+    });
+
+
+
+  /*-------------------------------------------------------------------------------
+    Owl Carousel
+  -------------------------------------------------------------------------------*/
     
-        /*==================================
-* Author        : "ThemeSine"
-* Template Name : Listrace directory HTML Template
-* Version       : 1.0
-==================================== */
+   $(document).ready(function() {
+    $("#screenshot-carousel").owlCarousel({
+      items : 4,
+      itemsDesktop : [1199,3],
+      itemsDesktopSmall : [979,3],
+      slideSpeed: 300,
+    });
+  });
+  
+  
+   $(document).ready(function() {
+    $("#about-carousel").owlCarousel({
+      autoPlay: 6000,
+      items : 1,
+      itemsDesktop : [1199,1],
+      itemsDesktopSmall : [979,1],
+      itemsTablet: [768,1],
+      itemsTabletSmall: false,
+      itemsMobile : [479,1],
+    });
+  });
 
 
 
+  /*-------------------------------------------------------------------------------
+    Back top Top
+  -------------------------------------------------------------------------------*/
 
-/*=========== TABLE OF CONTENTS ===========
-1. Scroll To Top 
-2. slick carousel
-3. welcome animation support
-4. feather icon
-5. counter
-======================================*/
-
-    // 1. Scroll To Top 
-		$(window).on('scroll',function () {
-			if ($(this).scrollTop() > 600) {
-				$('.return-to-top').fadeIn();
-			} else {
-				$('.return-to-top').fadeOut();
-			}
-		});
-		$('.return-to-top').on('click',function(){
-				$('html, body').animate({
-				scrollTop: 0
-			}, 1500);
-			return false;
-		});
-	
-	
-	// 2. slick carousel
-
-	    $(".testimonial-carousel").slick({
-	        infinite: true,
-	        centerMode: true,
-	        autoplay:true,
-	        slidesToShow: 5,
-	        slidesToScroll: 3,
-	        autoplaySpeed:1500,
-	        // the magic
-			responsive: [
-				{
-
-					breakpoint:1440,
-					settings: {
-					slidesToShow:3
-					}
-
-				},
-				{
-
-					breakpoint: 1024,
-					settings: {
-					slidesToShow:2,
-					
-					}
-
-				}, 
-				{
-
-					breakpoint:991,
-					settings: {
-					slidesToShow:2,
-					centerMode:false,
-					}
-
-				},
-				{
-
-					breakpoint:767,
-					settings: {
-					slidesToShow:1,
-					}
-
-				}
-			]
-	    });
+  $(window).scroll(function() {
+      if ($(this).scrollTop() > 200) {
+          $('.go-top').fadeIn(200);
+            } else {
+                $('.go-top').fadeOut(200);
+           }
+        });   
+          // Animate the scroll to top
+        $('.go-top').click(function(event) {
+          event.preventDefault();
+        $('html, body').animate({scrollTop: 0}, 300);
+    });
 
 
 
-    // 3. welcome animation support
+  /*-------------------------------------------------------------------------------
+    wow js - Animation js
+  -------------------------------------------------------------------------------*/
 
-        $(window).load(function(){
-        	$(".welcome-hero-txt h2,.welcome-hero-txt p").removeClass("animated fadeInUp").css({'opacity':'0'});
-            $(".welcome-hero-serch-box").removeClass("animated fadeInDown").css({'opacity':'0'});
-        });
+  new WOW({ mobile: false }).init();
 
-        $(window).load(function(){
-        	$(".welcome-hero-txt h2,.welcome-hero-txt p").addClass("animated fadeInUp").css({'opacity':'0'});
-            $(".welcome-hero-serch-box").addClass("animated fadeInDown").css({'opacity':'0'});
-        });
 
-	// 4. feather icon
+  });
 
-		feather.replace();
-
-	// 5. counter
-		$(window).on('load', function(){	
-			$('.counter').counterUp({
-				delay: 10,
-				time: 3000
-			});	
-		});
-
-});
