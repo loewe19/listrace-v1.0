@@ -1,25 +1,23 @@
 /*
 
-LIVRAISON DE GAZ A DOMICILE Template
+App Starter Template
 
 http://www.templatemo.com/tm-492-app-starter
 
 */
 
 body {
-		background:#4c4d4f;
+		background: #1c1c1c;
     font-family: 'Source Sans Pro', sans-serif;
     font-style: normal;
 		font-weight: 300;
     padding-top: 70px;
     overflow-x: hidden;
-    size: 50px;
-    background-image: repeating-linear-gradient(transform);
 }
 
 
 /*---------------------------------------
-    Typorgraphy               
+    Typorgraphy              
 -----------------------------------------*/
 
 h1,h2,h3,h4,h5,h6,
@@ -35,7 +33,7 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 h1 {
-    color:rgb(102, 149, 102);
+    color: #ffffff;
     font-size: 52px;
     letter-spacing: 2px;
     padding-bottom: 10px;
@@ -43,12 +41,12 @@ h1 {
 }
 
 h2 {
-  color:#54c4e9;
+  color: #f0f0f0;
   font-size: 32px;
 }
 
 h3 {
-  color:darkcyan;
+  color: #535bd4;
   font-size: 22px;
   line-height: 32px;
   padding-bottom: 4px;
@@ -59,22 +57,22 @@ h4 {
 }
 
 p {
-    color:plum;
+    color: #999;
     font-size: 20px;
     font-weight: 300;
     line-height: 30px;
 }
 
 hr {
-  border-bottom-color: #99999900;
+  border-bottom-color: #999;
   width: 100px;
 }
 
 .section-btn {
-  background-color:rgba(0, 255, 213, 0.13);
+  background-color: #000;
   border: 2px solid transparent;
   border-radius: 100px;
-  color: rebeccapurple;
+  color: #ffffff;
   font-size: 18px;
   font-weight: bold;
   letter-spacing: 1px;
@@ -85,11 +83,11 @@ hr {
 
 .section-btn:hover {
   background: transparent;
-  border-top-color:#4a3434;
-  border-right-color: #2222225f;
-  border-bottom-color: #ffffff0f;
-  border-left-color: #4a3434;
-  color: #ffffff46;
+  border-top-color: #ffffff;
+  border-right-color: #222;
+  border-bottom-color: #ffffff;
+  border-left-color: #222;
+  color: #ffffff;
 }
 
 
@@ -102,14 +100,14 @@ html{
 }
 
 a {
-  color:rgba(255, 255, 255, 0.237);
+  color: #535bd4;
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s;
   text-decoration: none !important;
 }
 a:hover, a:active, a:focus {
-  color: rgb(19, 72, 96);
+  color: #3FF;
   outline: none;
 }
 
@@ -133,7 +131,7 @@ a:hover, a:active, a:focus {
 
 ::-webkit-scrollbar-thumb {
   cursor: pointer;
-  background:rgb(109, 98, 98);
+  background: #ffffff;
 }
 
 .section-title {
@@ -141,10 +139,11 @@ a:hover, a:active, a:focus {
   padding-bottom: 62px;
   text-align: center;
 }
-#home,
+
 #about,
 #screenshot,
-#localisation,
+#divider,
+#pricing,
 #newsletter {
   padding-top: 100px;
   padding-bottom: 100px;
@@ -171,13 +170,13 @@ a:hover, a:active, a:focus {
   flex-flow: row nowrap;
   justify-content: center;
   align-items: center;
-  background: repeat scroll 0 0 #717d7f;
+  background: none repeat scroll 0 0 #ffffff;
 }
 
 .sk-spinner-pulse {
   width: 60px;
   height: 60px;
-  background-color: #454c4e;
+  background-color: #1dc9e3;
   border-radius: 100%;
   -webkit-animation: sk-pulseScaleOut 1s infinite ease-in-out;
           animation: sk-pulseScaleOut 1s infinite ease-in-out; }
@@ -207,14 +206,14 @@ a:hover, a:active, a:focus {
 -----------------------------------------*/
 
 .navbar-default {
-    background:rgba(130, 160, 155, 0.13);
+    background: #ffffff;
     border: none;
     box-shadow: none;
     margin: 0 !important;
 }
 
 .navbar-default .navbar-brand {
-  color:rgb(147, 133, 58);
+  color: #535bd4;
   font-size: 26px;
   font-weight: bold;
   text-transform: uppercase;
@@ -224,11 +223,11 @@ a:hover, a:active, a:focus {
 }
 
 .navbar-default .navbar-brand span {
-  color: #1dc9e342;
+  color: #1dc9e3;
 }
 
 .navbar-default .navbar-nav li a {
-    color: #7b3434;
+    color: #656565;
     font-size: 18px;
     font-weight: 500;
     line-height: 50px;
@@ -240,19 +239,19 @@ a:hover, a:active, a:focus {
 }
 
 .navbar-default .navbar-nav > li a:hover {
-    color: #010809;
+    color: #1dc9e3;
 }
 
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus {
-    color: #6f1010;
+    color: #656565;
     background-color: transparent;
 }
 
 .navbar-default .navbar-nav > .active > a,
 .navbar-default .navbar-nav > .active > a:hover,
 .navbar-default .navbar-nav > .active > a:focus {
-    color:rgb(97, 97, 201);
+    color: #1dc9e3;
     background-color: transparent;
 }
 
@@ -276,10 +275,10 @@ a:hover, a:active, a:focus {
 -----------------------------------------*/
 
 #home {
-    background:transparent url('../images/téléchargement - Copie.jfif') repeat;
+    background: #535bd4 url('../images/home-bg.jpg') no-repeat;
     background-size: cover;
     background-position: center center;
-    color:rgba(153, 205, 50, 0.379);
+    color: #ffffff;
     display: -webkit-box;
     display: -webkit-flex;
      display: -ms-flexbox;
@@ -293,9 +292,9 @@ a:hover, a:active, a:focus {
 }
 
 #home .overlay {
-  background:transparent; /* fallback for old browsers */
-  background: -webkit-linear-gradient(to left, #4776E6 , #54c4e9); /* Chrome 10-25, Safari 5.1-6 */ 
-  background: linear-gradient(to left, #4776E6 , #484351); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: #4776E6; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, #4776E6 , #8E54E9); /* Chrome 10-25, Safari 5.1-6 */ 
+  background: linear-gradient(to left, #4776E6 , #8E54E9); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   opacity: 0.9;
   position: absolute;
   width: 100%;
@@ -317,16 +316,16 @@ a:hover, a:active, a:focus {
 
 #home p,
 #newsletter p {
-  color:rgb(168, 133, 168);
+  color: #f0f0f0;
   letter-spacing: 1px;
 }
 
 #home .section-btn {
-  background:rgb(51, 105, 105);
+  background: #1dc9e3;
 }
 
 #home .section-btn:hover {
-  background:transparent !important;
+  background: transparent !important;
 }
 
 
@@ -335,7 +334,7 @@ a:hover, a:active, a:focus {
 -----------------------------------------*/
 
 #divider {
-  background-color:orchid;
+  background-color: #1dc9e3;
 }
 
 #divider p {
@@ -364,7 +363,7 @@ a:hover, a:active, a:focus {
 }
 
 #about .about-overlay {
-  background-color:rgb(160, 122, 72);
+  background-color: rgba(250,250,250,0.9);
   border-radius: 2px;
   position: absolute;
   bottom: 0px;
@@ -376,14 +375,14 @@ a:hover, a:active, a:focus {
 
 #about .about-thumb:hover .about-overlay {
   height: 100%;
-  background-color: #811010;
+  background-color: #ffffff;
   color: #222;
   padding-top: 30%;
   opacity: 0.9;
 }
 
 #about .about-thumb:hover h4 {
-  color: #7c9fa5;
+  color: #1dc9e3;
 }
 
 
@@ -398,7 +397,7 @@ a:hover, a:active, a:focus {
 }
 
 #screenshot img {
-  background-color: #ffffff1e;
+  background-color: #ffffff;
   box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.15);
   border-radius: 2px;
   cursor: pointer;
@@ -449,9 +448,9 @@ a:hover, a:active, a:focus {
 }
 
 #pricing .pricing-plan {
-  background-color:blue;
+  background-color: #ffffff;
   border-radius: 2px;
-  margin-bottom: 40px;
+  margin-bottom: 32px;
 }
 
 #pricing .pricing-plan .pricing-month {
@@ -470,7 +469,7 @@ a:hover, a:active, a:focus {
 }
 
 #pricing .pricing-plan .section-btn:hover {
-  background-color: #630e0e;
+  background-color: #ffffff;
   color: #222;
 }
 
@@ -480,16 +479,15 @@ a:hover, a:active, a:focus {
 -----------------------------------------*/
 
 #newsletter {
-    background: #535bd4 url('../images/téléchargement - Copie.jfif') repeat;
+    background: #535bd4 url('../images/newsletter-bg.jpg') no-repeat;
     background-size: cover;
     background-position: center center;
-    color:rgb(141, 22, 22);
+    color: #ffffff;
     position: relative;
-   
 }
 
 #newsletter .overlay {
-  background: rgb(206, 32, 32);
+  background: #1dc9e3;
   opacity: 0.9;
   position: absolute;
   width: 100%;
@@ -502,10 +500,10 @@ a:hover, a:active, a:focus {
 #newsletter .form-control {
   background-color: transparent;
   border: none;
-  border-bottom: 3px solid #7c5353;
+  border-bottom: 3px solid #eee;
   border-radius: 0px;
   box-shadow: none;
-  color: #995858;
+  color: #ffffff;
   font-size: 20px;
   font-weight: 400;
   height: 50px;
@@ -514,24 +512,13 @@ a:hover, a:active, a:focus {
 }
 
 #newsletter .form-control:focus {
-  border-color: #652626;
+  border-color: #ffffff;
 }
 
 #newsletter input[type="submit"] {
-  background-color:blue;
+  background-color: #ffffff;
   border-radius: 100px;
-  border: 3px solid #9c3535;
-  color: #338d9f;
-  font-size: 17px;
-  font-weight: 400;
-  letter-spacing: 1px;
-  text-transform: uppercase;
-  height: 55px;
-}
-#newsletter input[type="email"] {
-  background-color:green;
-  border-radius: 100px;
-  border: 3px solid #743535;
+  border: 3px solid #ffffff;
   color: #1dc9e3;
   font-size: 17px;
   font-weight: 400;
@@ -540,23 +527,22 @@ a:hover, a:active, a:focus {
   height: 55px;
 }
 
-
 #newsletter input[type="submit"]:hover {
   background-color: transparent;
-  color:red;
+  color: #ffffff;
 }
 
 #newsletter .form-control::-moz-placeholder {
-  color:rebeccapurple;
+  color: #ffffff;
   opacity: 1;
 }
 
 #newsletter .form-control:-ms-input-placeholder {
-  color: #821f1f;
+  color: #ffffff;
 }
 
 #newsletter .form-control::-webkit-input-placeholder {
-  color: #8f2121;
+  color: #ffffff;
 }
 
 
@@ -585,14 +571,11 @@ footer p {
 -----------------------------------------*/
 
 .modal-dialog .modal-content {
-  background-image: url("total-gaz-12-5kg-79-0.jpg") ;
-  background-attachment: fixed;
-  background-repeat: repeat;
-  background-color:rgb(63, 25, 25);
-  border:none;
+  background-color: #535bd4;
+  border: none;
   border-radius: 2px;
   text-align: center;
-  padding: 5px 200px 200px 5px;
+  padding: 100px 50px 80px 50px;
   position: relative;
   overflow: hidden;
 }
@@ -601,9 +584,12 @@ footer p {
   outline: none;
 }
 
+.modal-header {
+  border-bottom: 0px;
+}
 
 .modal-dialog .close {
-  color: #ffffff00;
+  color: #ffffff;
   font-size: 45px;
   font-weight: 300;
   text-shadow: none;
@@ -623,7 +609,7 @@ footer p {
 }
 
 .modal-dialog .modal-title {
-  color: #611515;
+  color: #ffffff;
 }
 
 .modal-dialog form {
@@ -636,48 +622,48 @@ footer p {
 
 .modal-dialog .form-control {
   background: transparent;
-  border: 1px solid #ab1b1b;
+  border: 1px solid #f0f0f0;
   border-radius: 0px;
   box-shadow: none;
-  color: #5f1010;
+  color: #ffffff;
   font-size: 20px;
   margin-bottom: 20px;
   transition: all 0.4s ease-in-out;
 }
 
 .modal-dialog .form-control:focus {
-  border-top-color:rgb(19, 72, 96);
-  border-right-color:rgb(147, 133, 58);
-  border-left-color: rgb(102, 149, 102);
-  border-bottom-color: #8e1b1b;
+  border-top-color: transparent;
+  border-right-color: transparent;
+  border-left-color: transparent;
+  border-bottom-color: #ffffff;
 }
 
 .modal-dialog form input[type="submit"] {
   background: #1dc9e3;
   border: 3px solid transparent;
-  border-radius: 80px;
-  font-weight: 100px;
+  border-radius: 100px;
+  font-weight: 400;
   letter-spacing: 1px;
-  color: #6b0f0f;
+  color: #ffffff;
   text-transform: uppercase;
   margin-top: 30px;
 }
 
 .modal-dialog form input[type="submit"]:hover {
   background: transparent;
-  border-color: #1dc9e317;
-  color: #770808;
+  border-color: #1dc9e3;
+  color: #ffffff;
 }
 
 .modal-dialog .form-control::-moz-placeholder {
-  color: #520e0e;
+  color: #ffffff;
   opacity: 1;
 }
 .modal-dialog .form-control:-ms-input-placeholder {
-  color: #830f0f;
+  color: #ffffff;
 }
 .modal-dialog .form-control::-webkit-input-placeholder {
-  color: #b11919;
+  color: #ffffff;
 }
 
 .modal.fade .modal-dialog{
@@ -754,7 +740,7 @@ footer p {
 
 .social-icon li a:hover {
     background: #1dc9e3;
-    color:#1dc9e3;
+    color: #ffffff;
     top: -5px;
 }
 
@@ -764,7 +750,7 @@ footer p {
 -----------------------------------------*/
 
 .go-top {
-  background-color:transparent;
+  background-color: #ffffff;
   box-shadow: 1px 1.732px 12px 0px rgba( 0, 0, 0, .14 ), 1px 1.732px 3px 0px rgba( 0, 0, 0, .12 );
   border-radius: 100px;
   transition : all 1s ease;
@@ -782,8 +768,8 @@ footer p {
 }
 
 .go-top:hover {
-    background:transparent;
-    color:transparent;
+    background: #535bd4;
+    color: #ffffff;
 }
 
 
@@ -834,9 +820,9 @@ footer p {
     padding-bottom: 32px;
   }
 
-  #home, #about,
+  #about, #divider,
   #screenshot,
-  #localisation, #newsletter {
+  #pricing, #newsletter {
     padding-top: 60px;
     padding-bottom: 60px;
   }
@@ -877,7 +863,7 @@ footer p {
     padding-left: 0px;
   }
 
-  #localisation .localisation-plan {
+  #pricing .pricing-plan {
     margin-bottom: 62px;
   }
 

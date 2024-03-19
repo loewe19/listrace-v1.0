@@ -116,10 +116,10 @@ http://www.templatemo.com/tm-492-app-starte
                     <div class="about-thumb">
                          <img src="images/téléchargement - Copie.jfif" class="img-responsive" alt="téléchargement - copie">
                               <div class="about-overlay">
+                              <h3>TRADEX</h3>
                                         <li><a href="#" class="fa fa-facebook"></a></li>
                                         <li><a href="#" class="fa fa-instagram"></a></li>
                                         <li><a href="#" class="fa fa-twitter"></a></li>
-                                        <li><a href="#" class="fa fa-whatsApp"></a></li>
                                    </ul>
                               </div>
                     </div>
@@ -127,10 +127,9 @@ http://www.templatemo.com/tm-492-app-starte
 
                 <div class="wow fadeInUp col-md-3 col-sm-6" data-wow-delay="0.4s">
                     <div class="about-thumb">
-                         <img src="images/team-img2.jpg" class="img-responsive" alt="Team">
+                         <img src="images/téléchargement - Copie.jfif" class="img-responsive" alt="téléchargement - copie">
                               <div class="about-overlay">
-                                   <h3>Candy </h3>
-                                   <h4>UX Specialist</h4>
+                                   <h3>TRADEX </h3>
                                    <ul class="social-icon">
                                         <li><a href="#" class="fa fa-pinterest"></a></li>
                                         <li><a href="#" class="fa fa-behance"></a></li>
@@ -219,7 +218,7 @@ http://www.templatemo.com/tm-492-app-starte
                          <p>12.5KG</p>
                          <p> + UN DETENTEUR OVERT</p>
                          <p>LIVRAISON GRATUIT</p>
-                         <button class="btn btn-default section-btn">ACHETER</button>
+                         <button class="btn btn-default section-btn"><a href="passer la commande.php" target="_blank"  p class="centered-text">passer la commande </p></a></button>
                     </div>
                </div>
 

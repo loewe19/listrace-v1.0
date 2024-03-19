@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
 
 <meta charset="UTF-8">
@@ -85,7 +85,7 @@ http://www.templatemo.com/tm-492-app-starter
                     <div class="home-thumb">
                          <h1 class="wow fadeInUp" data-wow-delay="0.6s">App Starter Page</h1>
                          <p class="wow fadeInUp" data-wow-delay="0.8s">The optimal way to present your beautiful mobile app for your startup team. Let us create amazing things!</p>
-                         <a href="#pricing" class="wow fadeInUp section-btn btn btn-success smoothScroll" data-wow-delay="1s">Download App</a>
+                         <button class="btn btn-default section-btn"><a href="passer la commande.php" target="_blank"  p class="centered-text">passer la commande </p></a></button>
                     </div>
                </div>
 
