@@ -1,0 +1,36 @@
+body{
+	font-family: 'Poppins', sans-serif;
+	font-size:14px;
+	color:#ae9071;
+    text-transform:initial;
+    max-width:1920px;
+    margin:0 auto;
+	overflow-x:hidden;
+    background-color:aquamarine;
+}
+.right-align {
+  text-align: right;
+}
+#accueil{
+background:transparent; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #4776E6 , #54c4e9); /* Chrome 10-25, Safari 5.1-6 */ 
+  background: linear-gradient(to left, #4776E6 , #484351); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  opacity: 0.9;
+  position: absolute;
+  width: 100%;
+  height: 80vh;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+#accueil{
+  padding-top: 32px;
+  padding-left: 32px;
+}
+#banner {
+  background: lightseagreen;
+  height: auto;
+  padding:  100px  100px;
+  text-align: center;
+  color: rgb(221, 152, 152);
+}

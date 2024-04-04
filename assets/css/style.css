@@ -1,6 +1,6 @@
 /*
 
-LIVRAISON DE GAZ A DOMICILE Template
+LIVRAISON DE GAZ A DOMICILE 
 
 http://www.templatemo.com/tm-492-app-starter
 
@@ -35,15 +35,15 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 h1 {
-    color:rgb(102, 149, 102);
+    color:powderblue;
     font-size: 52px;
     letter-spacing: 2px;
-    padding-bottom: 10px;
+    padding-bottom: 5px;
     margin-bottom: 0px;
 }
 
 h2 {
-  color:#54c4e9;
+  color:blue;
   font-size: 32px;
 }
 
@@ -102,7 +102,7 @@ html{
 }
 
 a {
-  color:rgba(255, 255, 255, 0.237);
+  color:orangered;
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s;
@@ -127,8 +127,8 @@ a:hover, a:active, a:focus {
 }
 
 ::-webkit-scrollbar{
-  width: 8px;
-  height: 8px;
+  width: 10px;
+  height: 10px;
 }
 
 ::-webkit-scrollbar-thumb {
@@ -138,7 +138,7 @@ a:hover, a:active, a:focus {
 
 .section-title {
   position: relative;
-  padding-bottom: 62px;
+  padding-bottom: 70px;
   text-align: center;
 }
 #home,
@@ -146,8 +146,8 @@ a:hover, a:active, a:focus {
 #screenshot,
 #localisation,
 #newsletter {
-  padding-top: 100px;
-  padding-bottom: 100px;
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 
 #divider,
@@ -177,7 +177,7 @@ a:hover, a:active, a:focus {
 .sk-spinner-pulse {
   width: 60px;
   height: 60px;
-  background-color: #454c4e;
+  background-color: #627074;
   border-radius: 100%;
   -webkit-animation: sk-pulseScaleOut 1s infinite ease-in-out;
           animation: sk-pulseScaleOut 1s infinite ease-in-out; }
@@ -449,7 +449,7 @@ a:hover, a:active, a:focus {
 }
 
 #pricing .pricing-plan {
-  background-color:blue;
+  background-color:rgb(19, 72, 96);
   border-radius: 2px;
   margin-bottom: 40px;
 }
@@ -483,14 +483,14 @@ a:hover, a:active, a:focus {
     background: #535bd4 url('../images/téléchargement - Copie.jfif') repeat;
     background-size: cover;
     background-position: center center;
-    color:rgb(141, 22, 22);
+    color:blue;
     position: relative;
    
 }
 
 #newsletter .overlay {
-  background: rgb(206, 32, 32);
-  opacity: 0.9;
+  background:transparent;
+  opacity:0.9;
   position: absolute;
   width: 100%;
   height: 100%;
@@ -502,10 +502,10 @@ a:hover, a:active, a:focus {
 #newsletter .form-control {
   background-color: transparent;
   border: none;
-  border-bottom: 3px solid #7c5353;
+  border-bottom: 3px solid #ebd5d5;
   border-radius: 0px;
   box-shadow: none;
-  color: #995858;
+  color: #e4dada;
   font-size: 20px;
   font-weight: 400;
   height: 50px;
@@ -514,13 +514,13 @@ a:hover, a:active, a:focus {
 }
 
 #newsletter .form-control:focus {
-  border-color: #652626;
+  border-color:grey;
 }
 
 #newsletter input[type="submit"] {
   background-color:blue;
   border-radius: 100px;
-  border: 3px solid #9c3535;
+  border: 5px solid #ebdcdc;
   color: #338d9f;
   font-size: 17px;
   font-weight: 400;
@@ -531,7 +531,7 @@ a:hover, a:active, a:focus {
 #newsletter input[type="email"] {
   background-color:green;
   border-radius: 100px;
-  border: 3px solid #743535;
+  border: 5px solid #ebe2e2;
   color: #1dc9e3;
   font-size: 17px;
   font-weight: 400;
@@ -543,7 +543,7 @@ a:hover, a:active, a:focus {
 
 #newsletter input[type="submit"]:hover {
   background-color: transparent;
-  color:red;
+  color:rgb(153, 115, 115);
 }
 
 #newsletter .form-control::-moz-placeholder {
@@ -552,11 +552,11 @@ a:hover, a:active, a:focus {
 }
 
 #newsletter .form-control:-ms-input-placeholder {
-  color: #821f1f;
+  color: #b79393;
 }
 
 #newsletter .form-control::-webkit-input-placeholder {
-  color: #8f2121;
+  color: #bb9c9c;
 }
 
 
